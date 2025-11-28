@@ -1,0 +1,85 @@
+{
+  "version": "m7.0.0",
+  "groups": [
+    {
+      "id": "core-ops",
+      "label": "Core Ops",
+      "dashboards": [
+        {"slug":"overview","title":"System Overview"},
+        {"slug":"kernel-inspector","title":"Kernel Inspector"},
+        {"slug":"nats-topology","title":"NATS Topology"},
+        {"slug":"deploy-pipeline","title":"Deploy Pipeline"},
+        {"slug":"repo-archeology","title":"Repo Archeology"},
+        {"slug":"audit-ledger","title":"Audit Ledger"},
+        {"slug":"edge-functions","title":"Edge Functions"},
+        {"slug":"agents","title":"Agents & Workers"},
+        {"slug":"billing","title":"Billing State"},
+        {"slug":"provenance","title":"Provenance Signals"}
+      ]
+    },
+    {
+      "id": "quantum-ux",
+      "label": "Quantum UX",
+      "dashboards": [
+        {"slug":"frequency-ui","title":"3D Frequency UI"},
+        {"slug":"toroidal-grid","title":"Toroidal Grid"},
+        {"slug":"scroll-dna","title":"ScrollDNA Overlay"},
+        {"slug":"holographic-metrics","title":"Holographic Metrics"},
+        {"slug":"glyph-signatures","title":"Quantum Glyph Signatures"},
+        {"slug":"torus-topology","title":"Torus-node Topology"},
+        {"slug":"plasma-themes","title":"Neon Plasma Themes"},
+        {"slug":"glass-panels","title":"Glassmorphism Panels"},
+        {"slug":"recursive-patterns","title":"Recursive Geometries"},
+        {"slug":"telemetry-pulse","title":"Live Telemetry Pulse"}
+      ]
+    },
+    {
+      "id": "ops-intelligence",
+      "label": "Ops Intelligence",
+      "dashboards": [
+        {"slug":"pipeline-sanity","title":"Pipeline Sanity"},
+        {"slug":"release-cadence","title":"Release Cadence"},
+        {"slug":"artifact-dignity","title":"Artifact Dignity"},
+        {"slug":"error-constellation","title":"Error Constellation"},
+        {"slug":"log-aurora","title":"Log Aurora"},
+        {"slug":"uptime-rings","title":"Uptime Rings"},
+        {"slug":"latency-field","title":"Latency Field"},
+        {"slug":"throughput-vortex","title":"Throughput Vortex"},
+        {"slug":"cache-echo","title":"Cache Echo"},
+        {"slug":"state-tangles","title":"State Tangles"}
+      ]
+    },
+    {
+      "id": "collab-bridges",
+      "label": "Collab Bridges",
+      "dashboards": [
+        {"slug":"endpoints","title":"CLI-ready Endpoints"},
+        {"slug":"supabase-bridge","title":"Supabase Bridge"},
+        {"slug":"vercel-liaison","title":"Vercel Liaison"},
+        {"slug":"github-orbits","title":"GitHub Orbits"},
+        {"slug":"collaborator-profiles","title":"Collaborator Profiles"},
+        {"slug":"access-guard","title":"Access Guard"},
+        {"slug":"copy-friendly","title":"Copy-friendly Payloads"},
+        {"slug":"runtime-adapters","title":"Runtime Adapters"},
+        {"slug":"contracts","title":"Contract-grade Ops"},
+        {"slug":"handoff-rituals","title":"Handoff Rituals"}
+      ]
+    },
+    {
+      "id": "future-verticals",
+      "label": "Future Verticals",
+      "dashboards": [
+        {"slug":"tokenization","title":"Tokenization"},
+        {"slug":"rwa-bridge","title":"RWA Bridge"},
+        {"slug":"matchmaker","title":"Autonomous Matchmaker"},
+        {"slug":"multi-family","title":"Multi-family Office"},
+        {"slug":"process-management","title":"Persistent Process Mgmt"},
+        {"slug":"risk-radar","title":"Risk Radar"},
+        {"slug":"compliance-veil","title":"Compliance Veil"},
+        {"slug":"governance-weave","title":"Governance Weave"},
+        {"slug":"learning-loops","title":"Learning Loops"},
+        {"slug":"market-telemetry","title":"Market Telemetry"}
+      ]
+    }
+  ]
+}
