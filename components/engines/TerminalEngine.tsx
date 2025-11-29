@@ -1,2 +1,25 @@
 "use client";
-export default function TerminalEngine({ title }) { return <div className="p-6 glass-panel bg-black/90 min-h-[80vh] text-green-400 font-mono"><div className="mb-4 text-green-700">ROOT ACCESS // {title}</div><div>> Connection established.</div><div className="animate-pulse">_</div></div>; }
+import React, { useState, useEffect, useRef } from "react";
+
+export default function TerminalEngine({ title }) {
+  const [lines, setLines] = useState(["| System: " + title + " Online"]);
+  const endRef = useRef(null);
+
+  useEffect(() => {
+    const i = setInterval(() => {
+       const newLine = "[root@scrollchain] process_" + Math.floor(Math.random() * 999) + " ... OK";
+       setLines(prev => [...prev.slice(-18), newLine]);
+    }, 600);
+    return () => clearInterval(i);
+  }, []);
+
+  return (
+    <div className="h-full flex flex-col glass-panel rounded-xl bg-black/90 font-mono text-xs text-green-500 p-6 border border-green-900/30">
+       <div className="mb-4 border-b border-green-900/50 pb-2 text-green-700 font-bold">{title.toUpperCase()} // SHELL</div>
+       <div className="flex-1 space-y-1 overflow-hidden">
+          {lines.map((l, i) => <div key={i}>{l}</div>)}
+          <div ref={endRef} className="animate-pulse text-white mt-2">_</div>
+       </div>
+    </div>
+  );
+}

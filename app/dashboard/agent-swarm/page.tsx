@@ -1,1 +1,2 @@
-import RouteDispatcher from "../../../components/templates/RouteDispatcher"; export default function P(){return <RouteDispatcher title="Agent Swarm" category="AI" />}
+import RouteDispatcher from "../../../components/templates/RouteDispatcher";
+export default function P() { return <RouteDispatcher title="Swarm Consensus" category="AI" />; }
