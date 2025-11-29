@@ -1,5 +1,2 @@
 import UniversalPage from "../../../components/templates/UniversalPage";
-
-export default function Page() {
-  return <UniversalPage title="Quest Log" category="GAMING" />;
-}
+export default function Page() { return <UniversalPage title="Quest Log" category="GAMING" />; }

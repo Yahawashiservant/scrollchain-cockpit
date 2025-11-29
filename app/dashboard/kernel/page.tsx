@@ -1,5 +1,2 @@
-import UniversalDashboardPage from "../../../components/templates/UniversalDashboardPage";
-
-export default function Page() {
-  return <UniversalDashboardPage title="kernel" category="INFRASTRUCTURE" color="text-blue-400" />;
-}
+import UniversalPage from "../../../components/templates/UniversalPage";
+export default function Page() { return <UniversalPage title="Kernel State" category="INFRA" />; }

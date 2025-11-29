@@ -1,5 +1,2 @@
-import UniversalDashboardPage from "../../../components/templates/UniversalDashboardPage";
-
-export default function Page() {
-  return <UniversalDashboardPage title="404 room" category="DEEP SYSTEM" color="text-red-800" />;
-}
+import UniversalPage from "../../../components/templates/UniversalPage";
+export default function Page() { return <UniversalPage title="404 Room" category="DEEP" />; }

@@ -1,5 +1,2 @@
-import UniversalDashboardPage from "../../../components/templates/UniversalDashboardPage";
-
-export default function Page() {
-  return <UniversalDashboardPage title="enlightenment path" category="SPIRITUAL & ESOTERIC" color="text-purple-300" />;
-}
+import UniversalPage from "../../../components/templates/UniversalPage";
+export default function Page() { return <UniversalPage title="Enlightenment" category="SPIRITUAL" />; }

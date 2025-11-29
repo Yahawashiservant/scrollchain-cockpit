@@ -1,5 +1,2 @@
-import UniversalDashboardPage from "../../../components/templates/UniversalDashboardPage";
-
-export default function Page() {
-  return <UniversalDashboardPage title="singularity watch" category="AI & INTEL" color="text-pink-400" />;
-}
+import UniversalPage from "../../../components/templates/UniversalPage";
+export default function Page() { return <UniversalPage title="Singularity Index" category="AI" />; }

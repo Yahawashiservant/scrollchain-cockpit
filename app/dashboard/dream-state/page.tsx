@@ -1,5 +1,2 @@
 import UniversalPage from "../../../components/templates/UniversalPage";
-
-export default function Page() {
-  return <UniversalPage title="Dream State" category="ABSTRACT" />;
-}
+export default function Page() { return <UniversalPage title="Dream State" category="ABSTRACT" />; }

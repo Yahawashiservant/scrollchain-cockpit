@@ -1,5 +1,2 @@
 import UniversalPage from "../../../components/templates/UniversalPage";
-
-export default function Page() {
-  return <UniversalPage title="Booking Handler" category="SPECIAL OPS" />;
-}
+export default function Page() { return <UniversalPage title="Booking Handler" category="OPS" />; }

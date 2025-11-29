@@ -1,5 +1,2 @@
 import UniversalPage from "../../../components/templates/UniversalPage";
-
-export default function Page() {
-  return <UniversalPage title="Leads Smoketest" category="LEADS" />;
-}
+export default function Page() { return <UniversalPage title="Smoketest" category="LEADS" />; }

@@ -1,5 +1,2 @@
 import UniversalPage from "../../../components/templates/UniversalPage";
-
-export default function Page() {
-  return <UniversalPage title="Lead Flows" category="OPS" />;
-}
+export default function Page() { return <UniversalPage title="Lead Flows" category="OPS" />; }

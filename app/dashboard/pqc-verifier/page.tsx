@@ -1,5 +1,2 @@
 import UniversalPage from "../../../components/templates/UniversalPage";
-
-export default function Page() {
-  return <UniversalPage title="PQC Verifier" category="CRYPTO" />;
-}
+export default function Page() { return <UniversalPage title="PQC Verifier" category="SECURITY" />; }

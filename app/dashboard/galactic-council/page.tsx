@@ -1,5 +1,1 @@
-import UniversalPage from "../../../components/templates/UniversalPage";
-
-export default function Page() {
-  return <UniversalPage title="Galactic Council" category="XENO" />;
-}
+import UniversalPage from '../../../components/templates/UniversalPage'; export default function P(){return <UniversalPage title="Galactic Council" category="UNIVERSAL" />}

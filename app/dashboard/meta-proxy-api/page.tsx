@@ -1,5 +1,2 @@
 import UniversalPage from "../../../components/templates/UniversalPage";
-
-export default function Page() {
-  return <UniversalPage title="Proxy API" category="META PROXY" />;
-}
+export default function Page() { return <UniversalPage title="Meta Proxy API" category="PROXY" />; }

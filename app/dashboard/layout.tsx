@@ -2,28 +2,29 @@ import Sidebar from "../../components/Sidebar";
 
 export default function DashboardLayout({ children }: { children: React.ReactNode }) {
   return (
-    <div className="flex w-full h-full bg-[#02040a] text-white relative">
+    /* h-screen locks the outer frame, flex-row puts sidebar next to content */
+    <div className="flex h-screen w-full bg-[#02040a] text-white overflow-hidden">
       
-      {/* Sidebar: Fixed */}
-      <aside className="w-64 flex-shrink-0 h-full border-r border-cyan-900/30 bg-black/80 backdrop-blur-xl z-50">
+      {/* SIDEBAR: Fixed width, does not shrink */}
+      <aside className="w-64 flex-shrink-0 h-full border-r border-cyan-900/30 bg-black/90 z-50 overflow-y-auto">
         <Sidebar />
       </aside>
 
-      {/* Main Content Area: Scrollable */}
-      <main className="flex-1 h-full relative flex flex-col min-w-0">
+      {/* MAIN CONTENT: Takes remaining width */}
+      <main className="flex-1 flex flex-col h-full relative min-w-0">
         
-        {/* Top Bar */}
-        <div className="h-1 w-full bg-gradient-to-r from-cyan-500 via-purple-500 to-pink-500 opacity-50 shadow-[0_0_20px_rgba(6,182,212,0.5)] flex-shrink-0"></div>
+        {/* Header Line */}
+        <div className="h-1 w-full bg-gradient-to-r from-cyan-500 to-purple-500 shrink-0"></div>
         
-        {/* SCROLL CONTAINER */}
-        <div className="flex-1 overflow-y-auto overflow-x-hidden p-0 relative z-10">
+        {/* SCROLL AREA: This div handles the vertical scrolling */ }
+        <div className="flex-1 overflow-y-auto p-0 z-10 relative scrollbar-thin">
            {children}
-           {/* Spacer for scrolling comfort */}
-           <div className="h-24"></div>
         </div>
-        
-        {/* Background */}
-        <div className="absolute inset-0 pointer-events-none z-0 bg-[radial-gradient(circle_at_center,_rgba(56,189,248,0.05),transparent_70%)]"></div>
+
+        {/* BACKGROUND: Pushed to back, clicks pass through */ }
+        <div className="absolute inset-0 z-0 pointer-events-none">
+           {/* This ensures the 3D scene doesn't block your mouse */}
+        </div>
       </main>
     </div>
   )

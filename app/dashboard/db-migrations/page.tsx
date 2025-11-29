@@ -1,5 +1,2 @@
 import UniversalPage from "../../../components/templates/UniversalPage";
-
-export default function Page() {
-  return <UniversalPage title="DB Migrations" category="ADMIN" />;
-}
+export default function Page() { return <UniversalPage title="DB Migrations" category="ADMIN" />; }

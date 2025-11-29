@@ -1,12 +1,17 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import "./globals.css"; // <--- CRITICAL: This loads the styles
+import { Rajdhani } from "next/font/google";
+import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+// Load the Sci-Fi HUD Font
+const font = Rajdhani({ 
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700"],
+  variable: "--font-rajdhani"
+});
 
 export const metadata: Metadata = {
   title: "ScrollChain Cockpit",
-  description: "Architect OS v40.0",
+  description: "Architect OS v41.0",
 };
 
 export default function RootLayout({
@@ -16,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${font.className} antialiased`}>{children}</body>
     </html>
   );
 }

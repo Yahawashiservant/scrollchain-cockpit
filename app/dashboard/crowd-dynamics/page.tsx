@@ -1,5 +1,2 @@
 import UniversalPage from "../../../components/templates/UniversalPage";
-
-export default function Page() {
-  return <UniversalPage title="Crowd Dynamics" category="SIM" />;
-}
+export default function Page() { return <UniversalPage title="Crowd Dynamics" category="SIM" />; }
