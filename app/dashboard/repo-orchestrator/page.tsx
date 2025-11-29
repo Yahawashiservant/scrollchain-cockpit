@@ -1,2 +1,0 @@
-import UniversalPage from "../../../components/templates/UniversalPage";
-export default function P() { return <UniversalPage title="Repo Orchestrator" category="INFRA" endpoint="repo-orchestrator" />; }

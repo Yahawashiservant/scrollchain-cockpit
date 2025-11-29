@@ -20,7 +20,7 @@ export default function Sidebar() {
       <div className="flex-1 overflow-y-auto p-2 space-y-1 scrollbar-thin scrollbar-thumb-cyan-900">
         {Object.entries(grouped).map(([cat, items]) => (
           <div key={cat} className="mb-2">
-            <button onClick={() => setOpenCat(openCat === cat ? null : cat)} className="w-full px-3 py-2 text-[10px] font-bold text-gray-500 tracking-widest text-left hover:text-white flex justify-between">{cat} <span>{openCat === cat ? '-' : '+'}</span></button>
+            <button onClick={() => setOpenCat(openCat === cat ? null : cat)} className="w-full px-3 py-2 text-[10px] font-bold text-gray-500 tracking-widest text-left hover:text-white flex justify-between">{cat} <span>{openCat === cat ? "-" : "+"}</span></button>
             {openCat === cat && (
               <div className="pl-2 border-l border-gray-800 ml-2 space-y-0.5">
                 {items.map(item => (

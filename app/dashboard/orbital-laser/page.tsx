@@ -1,2 +1,2 @@
-import UniversalPage from "../../../components/templates/UniversalPage";
-export default function P() { return <UniversalPage title="Orbital Laser" category="STRATEGIC" />; }
+import RouteDispatcher from "../../../components/templates/RouteDispatcher";
+export default function P() { return <RouteDispatcher title="Orbital Laser" category="STRATEGIC" />; }

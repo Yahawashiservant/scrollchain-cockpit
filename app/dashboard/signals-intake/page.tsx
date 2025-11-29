@@ -1,2 +1,0 @@
-import UniversalPage from "../../../components/templates/UniversalPage";
-export default function P() { return <UniversalPage title="Signals Intake" category="LEADS & OPS" endpoint="signals-aggregate-intake" />; }

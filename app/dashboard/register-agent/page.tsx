@@ -1,2 +1,0 @@
-import UniversalPage from "../../../components/templates/UniversalPage";
-export default function P() { return <UniversalPage title="Register Agent" category="DAO & GOVERNANCE" endpoint="dao-register-agent" />; }

@@ -1,2 +1,0 @@
-import UniversalPage from "../../../components/templates/UniversalPage";
-export default function P() { return <UniversalPage title="Booking Handler" category="LEADS & OPS" endpoint="booking-handler" />; }

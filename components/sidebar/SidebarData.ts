@@ -27,37 +27,37 @@ export const MENU_ITEMS = [
     "cat": "PROTECTION",
     "name": "D.i.T. (Architect)",
     "path": "/dashboard/d-i-t---architect-",
-    "color": "text-red-500"
+    "color": "text-gray-400"
   },
   {
     "cat": "PROTECTION",
     "name": "Law Bots",
     "path": "/dashboard/law-bots",
-    "color": "text-red-500"
+    "color": "text-gray-400"
   },
   {
     "cat": "PROTECTION",
     "name": "Family Shield",
     "path": "/dashboard/family-shield",
-    "color": "text-red-500"
+    "color": "text-gray-400"
   },
   {
     "cat": "PROTECTION",
     "name": "Ice Monitor",
     "path": "/dashboard/ice-monitor",
-    "color": "text-red-500"
+    "color": "text-gray-400"
   },
   {
     "cat": "PROTECTION",
     "name": "Legal Defense",
     "path": "/dashboard/legal-defense",
-    "color": "text-red-500"
+    "color": "text-gray-400"
   },
   {
     "cat": "PROTECTION",
     "name": "Global Killswitch",
     "path": "/dashboard/global-killswitch",
-    "color": "text-red-500"
+    "color": "text-gray-400"
   },
   {
     "cat": "INFRA",
@@ -243,73 +243,73 @@ export const MENU_ITEMS = [
     "cat": "OPS",
     "name": "Governance",
     "path": "/dashboard/governance",
-    "color": "text-green-400"
+    "color": "text-gray-400"
   },
   {
     "cat": "OPS",
     "name": "Supply Chain",
     "path": "/dashboard/supply-chain",
-    "color": "text-green-400"
+    "color": "text-gray-400"
   },
   {
     "cat": "OPS",
     "name": "Global Trade",
     "path": "/dashboard/global-trade",
-    "color": "text-green-400"
+    "color": "text-gray-400"
   },
   {
     "cat": "OPS",
     "name": "Client Dashboards",
     "path": "/dashboard/client-dashboards",
-    "color": "text-green-400"
+    "color": "text-gray-400"
   },
   {
     "cat": "OPS",
     "name": "Lead Flows",
     "path": "/dashboard/lead-flows",
-    "color": "text-green-400"
+    "color": "text-gray-400"
   },
   {
     "cat": "OPS",
     "name": "CRM",
     "path": "/dashboard/crm",
-    "color": "text-green-400"
+    "color": "text-gray-400"
   },
   {
     "cat": "OPS",
     "name": "HR Intelligence",
     "path": "/dashboard/hr-intelligence",
-    "color": "text-green-400"
+    "color": "text-gray-400"
   },
   {
     "cat": "OPS",
     "name": "Talent Pipeline",
     "path": "/dashboard/talent-pipeline",
-    "color": "text-green-400"
+    "color": "text-gray-400"
   },
   {
     "cat": "OPS",
     "name": "Payroll",
     "path": "/dashboard/payroll",
-    "color": "text-green-400"
+    "color": "text-gray-400"
   },
   {
     "cat": "OPS",
     "name": "Secure Chat",
     "path": "/dashboard/secure-chat",
-    "color": "text-green-400"
+    "color": "text-gray-400"
   },
   {
     "cat": "OPS",
     "name": "Town Hall",
     "path": "/dashboard/town-hall",
-    "color": "text-green-400"
+    "color": "text-gray-400"
   },
   {
     "cat": "OPS",
     "name": "Wiki",
     "path": "/dashboard/wiki",
-    "color": "text-green-400"
+    "color": "text-gray-400"
   },
   {
     "cat": "SECURITY",
@@ -375,205 +375,205 @@ export const MENU_ITEMS = [
     "cat": "FRONTIER",
     "name": "Exoplanet Scanner",
     "path": "/dashboard/exoplanet-scanner",
-    "color": "text-yellow-400"
+    "color": "text-gray-400"
   },
   {
     "cat": "FRONTIER",
     "name": "Fusion Reactor",
     "path": "/dashboard/fusion-reactor",
-    "color": "text-yellow-400"
+    "color": "text-gray-400"
   },
   {
     "cat": "FRONTIER",
     "name": "Quantum Computer",
     "path": "/dashboard/quantum-computer",
-    "color": "text-yellow-400"
+    "color": "text-gray-400"
   },
   {
     "cat": "FRONTIER",
     "name": "Warp Drive",
     "path": "/dashboard/warp-drive",
-    "color": "text-yellow-400"
+    "color": "text-gray-400"
   },
   {
     "cat": "FRONTIER",
     "name": "Dyson Sphere",
     "path": "/dashboard/dyson-sphere",
-    "color": "text-yellow-400"
+    "color": "text-gray-400"
   },
   {
     "cat": "FRONTIER",
     "name": "Antimatter",
     "path": "/dashboard/antimatter",
-    "color": "text-yellow-400"
+    "color": "text-gray-400"
   },
   {
     "cat": "FRONTIER",
     "name": "Bio Lab",
     "path": "/dashboard/bio-lab",
-    "color": "text-yellow-400"
+    "color": "text-gray-400"
   },
   {
     "cat": "FRONTIER",
     "name": "Particle Collider",
     "path": "/dashboard/particle-collider",
-    "color": "text-yellow-400"
+    "color": "text-gray-400"
   },
   {
     "cat": "FRONTIER",
     "name": "Terraforming",
     "path": "/dashboard/terraforming",
-    "color": "text-yellow-400"
+    "color": "text-gray-400"
   },
   {
     "cat": "FRONTIER",
     "name": "Space Elevator",
     "path": "/dashboard/space-elevator",
-    "color": "text-yellow-400"
+    "color": "text-gray-400"
   },
   {
     "cat": "FRONTIER",
     "name": "Time Dilation",
     "path": "/dashboard/time-dilation",
-    "color": "text-yellow-400"
+    "color": "text-gray-400"
   },
   {
     "cat": "FRONTIER",
     "name": "String Theory",
     "path": "/dashboard/string-theory",
-    "color": "text-yellow-400"
+    "color": "text-gray-400"
   },
   {
     "cat": "FRONTIER",
     "name": "Multiverse",
     "path": "/dashboard/multiverse",
-    "color": "text-yellow-400"
+    "color": "text-gray-400"
   },
   {
     "cat": "FRONTIER",
     "name": "Mind Upload",
     "path": "/dashboard/mind-upload",
-    "color": "text-yellow-400"
+    "color": "text-gray-400"
   },
   {
     "cat": "FRONTIER",
     "name": "Cryogenics",
     "path": "/dashboard/cryogenics",
-    "color": "text-yellow-400"
+    "color": "text-gray-400"
   },
   {
     "cat": "FRONTIER",
     "name": "Alien Signal",
     "path": "/dashboard/alien-signal",
-    "color": "text-yellow-400"
+    "color": "text-gray-400"
   },
   {
     "cat": "FRONTIER",
     "name": "Void Shield",
     "path": "/dashboard/void-shield",
-    "color": "text-yellow-400"
+    "color": "text-gray-400"
   },
   {
     "cat": "FRONTIER",
     "name": "Omega Point",
     "path": "/dashboard/omega-point",
-    "color": "text-yellow-400"
+    "color": "text-gray-400"
   },
   {
     "cat": "SIM",
     "name": "Life Game",
     "path": "/dashboard/life-game",
-    "color": "text-yellow-400"
+    "color": "text-gray-400"
   },
   {
     "cat": "SIM",
     "name": "Gravity Sandbox",
     "path": "/dashboard/gravity-sandbox",
-    "color": "text-yellow-400"
+    "color": "text-gray-400"
   },
   {
     "cat": "SIM",
     "name": "Evolution",
     "path": "/dashboard/evolution",
-    "color": "text-yellow-400"
+    "color": "text-gray-400"
   },
   {
     "cat": "SIM",
     "name": "Star Forge",
     "path": "/dashboard/star-forge",
-    "color": "text-yellow-400"
+    "color": "text-gray-400"
   },
   {
     "cat": "SIM",
     "name": "Erosion Sim",
     "path": "/dashboard/erosion-sim",
-    "color": "text-yellow-400"
+    "color": "text-gray-400"
   },
   {
     "cat": "SIM",
     "name": "Particle Storm",
     "path": "/dashboard/particle-storm",
-    "color": "text-yellow-400"
+    "color": "text-gray-400"
   },
   {
     "cat": "SIM",
     "name": "Fluid Sim",
     "path": "/dashboard/fluid-sim",
-    "color": "text-yellow-400"
+    "color": "text-gray-400"
   },
   {
     "cat": "SIM",
     "name": "Planet Builder",
     "path": "/dashboard/planet-builder",
-    "color": "text-yellow-400"
+    "color": "text-gray-400"
   },
   {
     "cat": "SIM",
     "name": "Traffic Flow",
     "path": "/dashboard/traffic-flow",
-    "color": "text-yellow-400"
+    "color": "text-gray-400"
   },
   {
     "cat": "SIM",
     "name": "Crowd Dynamics",
     "path": "/dashboard/crowd-dynamics",
-    "color": "text-yellow-400"
+    "color": "text-gray-400"
   },
   {
     "cat": "SIM",
     "name": "Orbit Plotter",
     "path": "/dashboard/orbit-plotter",
-    "color": "text-yellow-400"
+    "color": "text-gray-400"
   },
   {
     "cat": "SIM",
     "name": "Ray Tracer",
     "path": "/dashboard/ray-tracer",
-    "color": "text-yellow-400"
+    "color": "text-gray-400"
   },
   {
     "cat": "SIM",
     "name": "Sound Scaper",
     "path": "/dashboard/sound-scaper",
-    "color": "text-yellow-400"
+    "color": "text-gray-400"
   },
   {
     "cat": "SIM",
     "name": "Voxel Editor",
     "path": "/dashboard/voxel-editor",
-    "color": "text-yellow-400"
+    "color": "text-gray-400"
   },
   {
     "cat": "SIM",
     "name": "Logic Sandbox",
     "path": "/dashboard/logic-sandbox",
-    "color": "text-yellow-400"
+    "color": "text-gray-400"
   },
   {
     "cat": "SIM",
     "name": "Ecosystem Sim",
     "path": "/dashboard/ecosystem-sim",
-    "color": "text-yellow-400"
+    "color": "text-gray-400"
   },
   {
     "cat": "UNDERGROUND",
