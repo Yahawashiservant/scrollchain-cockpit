@@ -7,8 +7,9 @@ MENU_ITEMS.forEach(item => {
     const dir = path.join('app/dashboard', folder);
     if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
     
-    const content = `import UniversalPage from "../../../components/templates/UniversalPage";
-export default function P() { return <UniversalPage title="${item.name}" category="${item.cat}" />; }`;
+    // Pure String Concatenation for safety
+    const content = 'import UniversalPage from "../../../components/templates/UniversalPage";\n' +
+                    'export default function P() { return <UniversalPage title="' + item.name + '" category="' + item.cat + '" />; }';
     
     fs.writeFileSync(path.join(dir, 'page.tsx'), content);
 });

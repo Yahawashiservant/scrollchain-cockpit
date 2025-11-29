@@ -13,11 +13,13 @@
     "@react-three/fiber": "^8.15.14",
     "@types/three": "^0.181.0",
     "babel-plugin-macros": "^3.1.0",
+    "clsx": "^2.1.1",
     "lucide-react": "^0.555.0",
     "nats": "^2.19.0",
     "next": "^14.2.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "tailwind-merge": "^3.4.0",
     "three": "^0.181.2"
   },
   "devDependencies": {

@@ -1,2 +1,2 @@
 import RouteDispatcher from "../../../components/templates/RouteDispatcher";
-export default function P() { return <RouteDispatcher title="Particle Storm" category="SIM" />; }
+export default function P() { return <RouteDispatcher title="Particle Storm" category="SIMULATION" />; }

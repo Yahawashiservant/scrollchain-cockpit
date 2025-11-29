@@ -43,18 +43,6 @@ export const MENU_ITEMS = [
   },
   {
     "cat": "PROTECTION",
-    "name": "Ice Monitor",
-    "path": "/dashboard/ice-monitor",
-    "color": "text-gray-400"
-  },
-  {
-    "cat": "PROTECTION",
-    "name": "Legal Defense",
-    "path": "/dashboard/legal-defense",
-    "color": "text-gray-400"
-  },
-  {
-    "cat": "PROTECTION",
     "name": "Global Killswitch",
     "path": "/dashboard/global-killswitch",
     "color": "text-gray-400"
@@ -81,12 +69,6 @@ export const MENU_ITEMS = [
     "cat": "INFRA",
     "name": "Edge Functions",
     "path": "/dashboard/edge-functions",
-    "color": "text-gray-400"
-  },
-  {
-    "cat": "INFRA",
-    "name": "Server Mesh",
-    "path": "/dashboard/server-mesh",
     "color": "text-gray-400"
   },
   {
@@ -480,97 +462,97 @@ export const MENU_ITEMS = [
     "color": "text-gray-400"
   },
   {
-    "cat": "SIM",
+    "cat": "SIMULATION",
     "name": "Life Game",
     "path": "/dashboard/life-game",
     "color": "text-gray-400"
   },
   {
-    "cat": "SIM",
+    "cat": "SIMULATION",
     "name": "Gravity Sandbox",
     "path": "/dashboard/gravity-sandbox",
     "color": "text-gray-400"
   },
   {
-    "cat": "SIM",
+    "cat": "SIMULATION",
     "name": "Evolution",
     "path": "/dashboard/evolution",
     "color": "text-gray-400"
   },
   {
-    "cat": "SIM",
+    "cat": "SIMULATION",
     "name": "Star Forge",
     "path": "/dashboard/star-forge",
     "color": "text-gray-400"
   },
   {
-    "cat": "SIM",
+    "cat": "SIMULATION",
     "name": "Erosion Sim",
     "path": "/dashboard/erosion-sim",
     "color": "text-gray-400"
   },
   {
-    "cat": "SIM",
+    "cat": "SIMULATION",
     "name": "Particle Storm",
     "path": "/dashboard/particle-storm",
     "color": "text-gray-400"
   },
   {
-    "cat": "SIM",
+    "cat": "SIMULATION",
     "name": "Fluid Sim",
     "path": "/dashboard/fluid-sim",
     "color": "text-gray-400"
   },
   {
-    "cat": "SIM",
+    "cat": "SIMULATION",
     "name": "Planet Builder",
     "path": "/dashboard/planet-builder",
     "color": "text-gray-400"
   },
   {
-    "cat": "SIM",
+    "cat": "SIMULATION",
     "name": "Traffic Flow",
     "path": "/dashboard/traffic-flow",
     "color": "text-gray-400"
   },
   {
-    "cat": "SIM",
+    "cat": "SIMULATION",
     "name": "Crowd Dynamics",
     "path": "/dashboard/crowd-dynamics",
     "color": "text-gray-400"
   },
   {
-    "cat": "SIM",
+    "cat": "SIMULATION",
     "name": "Orbit Plotter",
     "path": "/dashboard/orbit-plotter",
     "color": "text-gray-400"
   },
   {
-    "cat": "SIM",
+    "cat": "SIMULATION",
     "name": "Ray Tracer",
     "path": "/dashboard/ray-tracer",
     "color": "text-gray-400"
   },
   {
-    "cat": "SIM",
+    "cat": "SIMULATION",
     "name": "Sound Scaper",
     "path": "/dashboard/sound-scaper",
     "color": "text-gray-400"
   },
   {
-    "cat": "SIM",
+    "cat": "SIMULATION",
     "name": "Voxel Editor",
     "path": "/dashboard/voxel-editor",
     "color": "text-gray-400"
   },
   {
-    "cat": "SIM",
+    "cat": "SIMULATION",
     "name": "Logic Sandbox",
     "path": "/dashboard/logic-sandbox",
     "color": "text-gray-400"
   },
   {
-    "cat": "SIM",
+    "cat": "SIMULATION",
     "name": "Ecosystem Sim",
     "path": "/dashboard/ecosystem-sim",
     "color": "text-gray-400"

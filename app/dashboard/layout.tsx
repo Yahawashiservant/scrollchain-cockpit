@@ -1,8 +1,8 @@
 import Sidebar from "../../components/Sidebar";
 
-export default function DashboardLayout({ children }: { children: React.ReactNode }) {
+export default function DashboardLayout({ children }) {
   return (
-    <div className="flex h-screen w-full bg-[#02040a] text-white overflow-hidden">
+    <div className="flex h-screen w-full bg-[#02040a] overflow-hidden">
       <aside className="w-64 flex-shrink-0 h-full border-r border-cyan-900/30 bg-black/90 z-50">
         <Sidebar />
       </aside>

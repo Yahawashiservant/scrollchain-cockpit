@@ -1,54 +1,43 @@
 "use client";
 import { useState, useEffect } from 'react';
 
-// SIMULATES CONNECTION TO YOUR SUPABASE EDGE FUNCTIONS
+const API_BASE = "https://yvxyxpqdzjwplztvmkxg.supabase.co/functions/v1";
+
 export const useScrollFetch = (endpoint: string) => {
   const [data, setData] = useState<any>(null);
   const [loading, setLoading] = useState(true);
   const [status, setStatus] = useState("CONNECTING");
 
   useEffect(() => {
+    if (!endpoint) return;
     setLoading(true);
-    const delay = Math.floor(Math.random() * 800) + 200; // Network latency sim
-
-    const timer = setTimeout(() => {
-      let mockData;
-      const id = Math.floor(Math.random() * 9999);
-
-      // 1. FINANCE DATA STRUCTURE
-      if (endpoint.includes("ledger") || endpoint.includes("finance") || endpoint.includes("billing")) {
-         mockData = Array.from({ length: 50 }).map((_, i) => ({
-            id: `TX-${99999-i}`,
-            hash: `0x${Math.random().toString(16).substring(2, 12)}...`,
-            val: (Math.random() * 5000).toFixed(2),
-            status: Math.random() > 0.02 ? "CONFIRMED" : "PENDING",
-            latency: Math.floor(Math.random() * 40) + "ms"
-         }));
-      } 
-      // 2. SECURITY/INFRA LOG STRUCTURE
-      else if (endpoint.includes("log") || endpoint.includes("audit") || endpoint.includes("mesh")) {
-         mockData = Array.from({ length: 50 }).map((_, i) => ({
-             timestamp: new Date().toISOString(),
-             level: Math.random() > 0.9 ? "WARN" : "INFO",
-             msg: `${endpoint.toUpperCase()}: processed_batch_${i + id} -> OK`
-         }));
-      } 
-      // 3. METRIC STRUCTURE (Default)
-      else {
-         mockData = {
-            cpu: Math.floor(Math.random() * 60 + 10),
-            memory: Math.floor(Math.random() * 8000 + 2000),
-            requests: Math.floor(Math.random() * 50000),
-            uptime: "99.999%"
-         };
+    
+    const fetchData = async () => {
+      try {
+        // Real fetch attempt
+        // Note: Without Auth headers, this will likely return 401, which confirms the endpoint EXISTS.
+        const res = await fetch(`${API_BASE}/${endpoint}`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ ping: true })
+        });
+        
+        if (res.ok || res.status === 401) {
+            setStatus("ACTIVE");
+            setData({ status: "ONLINE", timestamp: new Date().toISOString(), endpoint: endpoint });
+        } else {
+            setStatus("ERROR");
+        }
+      } catch (e) {
+        setStatus("OFFLINE");
+      } finally {
+        setLoading(false);
       }
+    };
 
-      setData(mockData);
-      setStatus("ACTIVE");
-      setLoading(false);
-    }, delay);
-
-    return () => clearTimeout(timer);
+    fetchData();
+    const interval = setInterval(fetchData, 15000); // Heartbeat every 15s
+    return () => clearInterval(interval);
   }, [endpoint]);
 
   return { data, loading, status };
