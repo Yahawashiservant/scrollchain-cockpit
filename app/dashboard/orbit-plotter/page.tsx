@@ -1,5 +1,2 @@
 import UniversalPage from "../../../components/templates/UniversalPage";
-
-export default function Page() {
-  return <UniversalPage title="Orbit Plotter" category="SIM" />;
-}
+export default function P() { return <UniversalPage title="Orbit Plotter" category="SIM" />; }

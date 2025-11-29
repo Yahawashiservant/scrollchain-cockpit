@@ -1,5 +1,2 @@
 import UniversalPage from "../../../components/templates/UniversalPage";
-
-export default function Page() {
-  return <UniversalPage title="Tax Calculator" category="FINANCE" />;
-}
+export default function P(){return <UniversalPage title="Tax Calc" category="FINANCE" />;}

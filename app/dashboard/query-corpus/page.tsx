@@ -1,5 +1,2 @@
 import UniversalPage from "../../../components/templates/UniversalPage";
-
-export default function Page() {
-  return <UniversalPage title="Query Corpus" category="INTELLIGENCE" />;
-}
+export default function P() { return <UniversalPage title="Query Corpus" category="INTELLIGENCE" endpoint="query_corpus" />; }

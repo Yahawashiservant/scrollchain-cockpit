@@ -1,2 +1,2 @@
 import UniversalPage from "../../../components/templates/UniversalPage";
-export default function Page() { return <UniversalPage title="Render Farm" category="CREATIVE" />; }
+export default function P() { return <UniversalPage title="Render Farm" category="CREATIVE" />; }

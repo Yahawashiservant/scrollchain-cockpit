@@ -1,1 +1,2 @@
-import UniversalPage from '../../../components/templates/UniversalPage'; export default function P(){return <UniversalPage title="Synthetic Skin" />}
+import UniversalPage from "../../../components/templates/UniversalPage";
+export default function P(){return <UniversalPage title="Synthetic Skin" category="POST-HUMAN" />;}

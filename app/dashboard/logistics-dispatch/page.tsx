@@ -1,2 +1,2 @@
 import UniversalPage from "../../../components/templates/UniversalPage";
-export default function Page() { return <UniversalPage title="Logistics Dispatch" category="OPS" />; }
+export default function P() { return <UniversalPage title="Logistics Dispatch" category="LEADS & OPS" endpoint="logistics-dispatch" />; }

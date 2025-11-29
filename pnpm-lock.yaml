@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@next/font':
+        specifier: ^14.2.15
+        version: 14.2.15(next@14.2.5(@babel/core@7.28.5)(babel-plugin-macros@3.1.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0))
       '@react-three/drei':
         specifier: ^9.104.6
         version: 9.122.0(@react-three/fiber@8.18.0(@types/react@18.3.27)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(three@0.181.2))(@types/react@18.3.27)(@types/three@0.181.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(three@0.181.2)(use-sync-external-store@1.6.0(react@18.2.0))
@@ -171,6 +174,11 @@ packages:
 
   '@next/env@14.2.5':
     resolution: {integrity: sha512-/zZGkrTOsraVfYjGP8uM0p6r0BDT6xWpkjdVbcz66PJVSpwXX3yNiRycxAuDfBKGWBrZBXRuK/YVlkNgxHGwmA==}
+
+  '@next/font@14.2.15':
+    resolution: {integrity: sha512-QopYhBmCDDrNDynbi+ZD1hDZXmQXVFo7TmAFp4DQgO/kogz1OLbQ92hPigJbj572eZ3GaaVxNIyYVn3/eAsehg==}
+    peerDependencies:
+      next: '*'
 
   '@next/swc-darwin-arm64@14.2.5':
     resolution: {integrity: sha512-/9zVxJ+K9lrzSGli1///ujyRfon/ZneeZ+v4ptpiPoOU+GKZnm8Wj8ELWU1Pm7GHltYRBklmXMTUqM/DqQ99FQ==}
@@ -1133,6 +1141,10 @@ snapshots:
       three: 0.181.2
 
   '@next/env@14.2.5': {}
+
+  '@next/font@14.2.15(next@14.2.5(@babel/core@7.28.5)(babel-plugin-macros@3.1.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0))':
+    dependencies:
+      next: 14.2.5(@babel/core@7.28.5)(babel-plugin-macros@3.1.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
 
   '@next/swc-darwin-arm64@14.2.5':
     optional: true

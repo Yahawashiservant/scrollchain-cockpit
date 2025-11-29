@@ -1,2 +1,2 @@
 import UniversalPage from "../../../components/templates/UniversalPage";
-export default function Page() { return <UniversalPage title="Synth Rack" category="CREATIVE" />; }
+export default function P() { return <UniversalPage title="Synth Rack" category="CREATIVE" />; }

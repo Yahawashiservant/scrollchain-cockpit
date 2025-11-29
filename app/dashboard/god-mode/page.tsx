@@ -1,2 +1,2 @@
 import UniversalPage from "../../../components/templates/UniversalPage";
-export default function Page() { return <UniversalPage title="Divine Intervention (D.i.T.)" category="PROTECTION" />; }
+export default function P(){return <UniversalPage title="D.i.T. (Architect)" category="PROTECTION" />;}

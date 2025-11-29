@@ -1,0 +1,2 @@
+import UniversalPage from "../../../components/templates/UniversalPage";
+export default function P() { return <UniversalPage title="Meta Index" category="MESH OPS" endpoint="scrollchain-meta-index" />; }

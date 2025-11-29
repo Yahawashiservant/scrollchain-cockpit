@@ -1,5 +1,2 @@
 import UniversalPage from "../../../components/templates/UniversalPage";
-
-export default function Page() {
-  return <UniversalPage title="Genome Editor" category="ABSTRACT" />;
-}
+export default function P() { return <UniversalPage title="Genome Editor" category="ABSTRACT" />; }

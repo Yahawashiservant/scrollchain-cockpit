@@ -1,2 +1,2 @@
 import UniversalPage from "../../../components/templates/UniversalPage";
-export default function Page() { return <UniversalPage title="Capability Issue" category="INTEL" />; }
+export default function P() { return <UniversalPage title="Capability Issue" category="INTELLIGENCE" endpoint="capability-issue" />; }

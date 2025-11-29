@@ -1,2 +1,2 @@
 import UniversalPage from "../../../components/templates/UniversalPage";
-export default function Page() { return <UniversalPage title="Query Semantic" category="INTEL" />; }
+export default function P() { return <UniversalPage title="Query Semantic" category="INTELLIGENCE" endpoint="query_semantic" />; }

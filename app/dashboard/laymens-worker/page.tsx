@@ -1,0 +1,2 @@
+import UniversalPage from "../../../components/templates/UniversalPage";
+export default function P() { return <UniversalPage title="Laymens Worker" category="LEADS & OPS" endpoint="laymens-lead-worker" />; }

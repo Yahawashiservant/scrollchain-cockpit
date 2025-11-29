@@ -1,2 +1,2 @@
 import UniversalPage from "../../../components/templates/UniversalPage";
-export default function Page() { return <UniversalPage title="DAO Summary" category="DAO" />; }
+export default function P() { return <UniversalPage title="DAO Summary" category="DAO & GOVERNANCE" endpoint="dao-summary" />; }

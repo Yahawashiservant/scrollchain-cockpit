@@ -1,1 +1,2 @@
-import UniversalPage from '../../../components/templates/UniversalPage'; export default function P(){return <UniversalPage title="War Room" />}
+import UniversalPage from "../../../components/templates/UniversalPage";
+export default function P() { return <UniversalPage title="War Room" category="STRATEGIC" />; }

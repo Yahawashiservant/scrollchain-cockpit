@@ -1,1 +1,2 @@
-import UniversalPage from '../../../components/templates/UniversalPage'; export default function P(){return <UniversalPage title="Nuclear Silo" />}
+import UniversalPage from "../../../components/templates/UniversalPage";
+export default function P() { return <UniversalPage title="Nuclear Silo" category="STRATEGIC" />; }

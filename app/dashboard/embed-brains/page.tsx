@@ -1,2 +1,2 @@
 import UniversalPage from "../../../components/templates/UniversalPage";
-export default function Page() { return <UniversalPage title="Embed Brains" category="INTEL" />; }
+export default function P() { return <UniversalPage title="Embed Brains" category="INTELLIGENCE" endpoint="embed-brains" />; }

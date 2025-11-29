@@ -1,5 +1,2 @@
-import UniversalDashboardPage from "../../../components/templates/UniversalDashboardPage";
-
-export default function Page() {
-  return <UniversalDashboardPage title="mars colony" category="EXPERIMENTAL" color="text-cyan-300" />;
-}
+import UniversalPage from "../../../components/templates/UniversalPage";
+export default function P(){return <UniversalPage title="Mars Colony" category="EXPERIMENTAL" />;}

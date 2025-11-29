@@ -1,1 +1,2 @@
-import UniversalPage from '../../../components/templates/UniversalPage'; export default function P(){return <UniversalPage title="Deep Space Comms" category="GALACTIC" />}
+import UniversalPage from "../../../components/templates/UniversalPage";
+export default function P(){return <UniversalPage title="Deep Space Comms" category="GALACTIC" />;}

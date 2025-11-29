@@ -1,2 +1,2 @@
 import UniversalPage from "../../../components/templates/UniversalPage";
-export default function Page() { return <UniversalPage title="Holo Deck" category="ABSTRACT" />; }
+export default function P() { return <UniversalPage title="Holo Deck" category="ABSTRACT" />; }

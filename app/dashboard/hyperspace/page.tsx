@@ -1,1 +1,2 @@
-import UniversalPage from '../../../components/templates/UniversalPage'; export default function P(){return <UniversalPage title="Hyperspace" />}
+import UniversalPage from "../../../components/templates/UniversalPage";
+export default function P(){return <UniversalPage title="Hyperspace" category="ABSTRACT" />;}

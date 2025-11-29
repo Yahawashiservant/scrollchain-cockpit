@@ -1,2 +1,2 @@
 import UniversalPage from "../../../components/templates/UniversalPage";
-export default function Page() { return <UniversalPage title="Glyph Issue" category="SECURITY" />; }
+export default function P(){return <UniversalPage title="Glyph Issue" category="SECURITY" />;}

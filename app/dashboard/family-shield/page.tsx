@@ -1,2 +1,2 @@
 import UniversalPage from "../../../components/templates/UniversalPage";
-export default function Page() { return <UniversalPage title="Family Shield" category="PROTECTION" />; }
+export default function P() { return <UniversalPage title="Family Shield" category="PROTECTION" />; }

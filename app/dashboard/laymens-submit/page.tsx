@@ -1,0 +1,2 @@
+import UniversalPage from "../../../components/templates/UniversalPage";
+export default function P() { return <UniversalPage title="Laymens Submit" category="LEADS & OPS" endpoint="laymens-submit-lead" />; }

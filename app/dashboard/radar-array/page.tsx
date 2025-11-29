@@ -1,1 +1,2 @@
-import UniversalPage from '../../../components/templates/UniversalPage'; export default function P(){return <UniversalPage title="Radar Array" />}
+import UniversalPage from "../../../components/templates/UniversalPage";
+export default function P() { return <UniversalPage title="Radar Array" category="STRATEGIC" />; }

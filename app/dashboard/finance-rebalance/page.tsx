@@ -1,2 +1,2 @@
 import UniversalPage from "../../../components/templates/UniversalPage";
-export default function Page() { return <UniversalPage title="Finance Rebalance" category="FINANCE" />; }
+export default function P() { return <UniversalPage title="Finance Rebalance" category="FINANCE CORE" endpoint="finance-rebalance" />; }

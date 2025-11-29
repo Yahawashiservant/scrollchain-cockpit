@@ -1,2 +1,2 @@
 import UniversalPage from "../../../components/templates/UniversalPage";
-export default function Page() { return <UniversalPage title="Siber Roofing" category="OPS" />; }
+export default function P() { return <UniversalPage title="Siber Roofing" category="LEADS & OPS" endpoint="siber-roofing" />; }

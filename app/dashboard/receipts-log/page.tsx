@@ -1,2 +1,2 @@
 import UniversalPage from "../../../components/templates/UniversalPage";
-export default function Page() { return <UniversalPage title="Receipts Log" category="FINANCE" />; }
+export default function P() { return <UniversalPage title="Receipts Log" category="FINANCE CORE" endpoint="receipts-log" />; }

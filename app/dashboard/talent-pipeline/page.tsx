@@ -1,5 +1,2 @@
 import UniversalPage from "../../../components/templates/UniversalPage";
-
-export default function Page() {
-  return <UniversalPage title="Talent Pipeline" category="OPS" />;
-}
+export default function P() { return <UniversalPage title="Talent Pipeline" category="OPS" />; }

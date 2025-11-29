@@ -2,8 +2,7 @@ import type { Metadata } from "next";
 import { Rajdhani } from "next/font/google";
 import "./globals.css";
 
-// Load the Sci-Fi HUD Font
-const font = Rajdhani({ 
+const rajdhani = Rajdhani({ 
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700"],
   variable: "--font-rajdhani"
@@ -11,7 +10,7 @@ const font = Rajdhani({
 
 export const metadata: Metadata = {
   title: "ScrollChain Cockpit",
-  description: "Architect OS v41.0",
+  description: "Sovereign OS v45.0",
 };
 
 export default function RootLayout({
@@ -21,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${font.className} antialiased`}>{children}</body>
+      <body className={`${rajdhani.variable} font-sans antialiased`}>{children}</body>
     </html>
   );
 }

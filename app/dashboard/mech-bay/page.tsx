@@ -1,5 +1,2 @@
-import UniversalDashboardPage from "../../../components/templates/UniversalDashboardPage";
-
-export default function Page() {
-  return <UniversalDashboardPage title="mech bay" category="EXPERIMENTAL" color="text-cyan-300" />;
-}
+import UniversalPage from "../../../components/templates/UniversalPage";
+export default function P(){return <UniversalPage title="Mech Bay" category="EXPERIMENTAL" />;}
