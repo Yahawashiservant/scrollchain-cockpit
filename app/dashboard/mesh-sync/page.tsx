@@ -1,2 +1,2 @@
 import RouteDispatcher from "../../../components/templates/RouteDispatcher";
-export default function P() { return <RouteDispatcher title="Mesh Sync" category="EDGE OPS" />; }
+export default function P() { return <RouteDispatcher title="Mesh Sync" category="MESH OPS" />; }

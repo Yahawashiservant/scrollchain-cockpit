@@ -1,10 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
-  swcMinify: true,
-  // Remove experimental.serverActions — it’s enabled by default in Next.js 14+
+  experimental: {
+    // reserved for future autonomy modules
+  }
 };
-
-module.exports = nextConfig;
-
-
+export default nextConfig;

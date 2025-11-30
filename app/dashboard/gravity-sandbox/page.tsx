@@ -1,2 +1,2 @@
 import RouteDispatcher from "../../../components/templates/RouteDispatcher";
-export default function P() { return <RouteDispatcher title="Gravity Sandbox" category="SIMULATION" />; }
+export default function P() { return <RouteDispatcher title="Gravity Sandbox" category="SIM" />; }

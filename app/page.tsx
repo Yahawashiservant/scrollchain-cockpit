@@ -1,4 +1,8 @@
-import { redirect } from 'next/navigation';
+"use client";
+import { useEffect } from "react";
+import { redirect } from "next/navigation";
+
 export default function Home() {
-  redirect('/dashboard/overview');
+  useEffect(() => { redirect("/dashboard/overview"); }, []);
+  return null;
 }

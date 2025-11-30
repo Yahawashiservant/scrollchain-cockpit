@@ -1,1 +1,2 @@
-import RouteDispatcher from "../../../components/templates/RouteDispatcher"; export default function P(){return <RouteDispatcher title="Token Ledger" category="FINANCE" />}
+import RouteDispatcher from "../../../components/templates/RouteDispatcher";
+export default function P() { return <RouteDispatcher title="Token Ledger" category="FINANCE" />; }
